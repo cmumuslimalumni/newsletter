@@ -8,10 +8,6 @@
 <meta name="supported-color-schemes" content="light" />
 <title>Muslim Alumni Network @ CMU — Newsletter, Issue No. 1</title>
 
-<!-- Cursive Arabic web font (Aref Ruqaa — Google Fonts, free). Renders in
-     browser preview, webmail, Apple/iOS Mail. Outlook and some others strip
-     @font-face and silently fall back to the system Arabic stack below it —
-     nothing breaks, it just loses the flourish for those readers. -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet" />
@@ -45,37 +41,6 @@
 </style>
 </head>
 
-<!--
-  ISSUE NO. 1 — AUGUST 2026
-  Built from newsletter-template.html. Sections run: At a Glance, Salam,
-  Upcoming Events (DMV social, Shotted Specialty Coffee at Tysons Galleria),
-  Board Intros (Rimsha Ahmed, Tahaseen Shaikh, Sumayya Syeda — replaces
-  Alumni Spotlight for this issue; photos for Rimsha and Tahaseen still
-  placeholders), Student Spotlight (placeholder — no student picked yet),
-  From Campus (waiting on Zakariya's note), Opportunities,
-  Giving & Service (CMU Giving Day teaser — date TBD per her copy),
-  Get Involved, Reflection (moved to the very end, right before the
-  footer, per her request). Announcements / In Your City are sitting
-  out this issue — nothing to report yet.
-
-  NAME SPELLING FLAG: this issue has both "Tahaseen Shaikh" (Board Intros,
-  per her latest message) and "Tahaseen Shaik" (DMV organizer credit, per
-  an earlier explicit correction) — worth confirming which is correct and
-  making consistent before sending.
-
-  BEFORE SENDING — three things still need real values:
-    1. Logo + spotlight photo srcs are relative paths (images/...) so they
-       preview in a browser. Swap to hosted https:// URLs before sending —
-       email clients can't read relative paths.
-    2. Footer LinkedIn and WhatsApp are both filled in now. Still missing:
-       the physical mailing address CAN-SPAM requires — add one (a board
-       member's address or a PO box both work).
-    3. Still bracketed: the alumni-map-form link, and Rimsha's/Tahaseen's
-       personal email + LinkedIn (the org LinkedIn and DMV RSVP are both
-       resolved). Sumayya's and Mansour's contact info are also resolved.
-  ============================================================================
--->
-
 <body id="body" style="margin:0; padding:0; background-color:#EFE9E0;">
 
 <div style="display:none; font-size:1px; color:#EFE9E0; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden;">
@@ -90,7 +55,6 @@
 <!--[if mso]><table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
 <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#FFFFFF;">
 
-  <!-- ================= MASTHEAD ================= -->
   <tr>
     <td align="center" bgcolor="#941121" style="background-color:#941121; padding:30px 30px 26px 30px;">
       <img src="images/logo.png"
@@ -116,8 +80,6 @@
 
   <tr><td bgcolor="#FFFFFF" style="background-color:#FFFFFF; height:10px; font-size:0; line-height:0;">&nbsp;</td></tr>
 
-  <!-- BISMILLAH — vector calligraphy image, not text. See
-       newsletter-template.html for the sourcing/export notes. -->
   <tr>
     <td align="center" style="padding:16px 44px 9px 44px;">
       <img src="images/bismillah.png"
@@ -132,7 +94,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= AT A GLANCE ================= -->
   <tr>
     <td class="pad" style="padding:30px 44px 6px 44px;">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FAF6F0" style="background-color:#FAF6F0; border:1px solid #E6DED2;">
@@ -170,7 +131,6 @@
     </td>
   </tr>
 
-  <!-- ================= SALAM ================= -->
   <tr>
     <td class="pad" style="padding:30px 44px 0 44px;">
       <div style="font-family:Georgia,'Times New Roman',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:#941121; font-weight:bold; padding-bottom:6px;">
@@ -200,11 +160,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= UPCOMING EVENTS =================
-       Standalone event card, not grouped under "In Your City" — with only
-       one region active so far, regional grouping doesn't make sense yet.
-       Template's own rule: fold events into this section until 2+ regions
-       are active. -->
   <tr>
     <td class="pad" style="padding:30px 44px 0 44px;">
       <div style="font-family:Georgia,'Times New Roman',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:#941121; font-weight:bold; padding-bottom:6px;">
@@ -238,18 +193,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= BOARD INTROS =================
-       Replaces Alumni Spotlight for this issue. Three entries, one section.
-       Text wraps around the photo via CSS float — the photo floats left,
-       the bio flows around and continues below it once the text runs past
-       the image's height. A trailing clear:both div closes each float so
-       the next person's block (or the divider after) starts clean.
-       NOTE ON EMAIL SUPPORT: float works in Apple Mail, iOS Mail, Gmail
-       (web/app), and most modern webmail. Outlook desktop's Word-based
-       renderer ignores float — there the image just sits above the text,
-       unwrapped, rather than beside it. Nothing breaks, it just loses the
-       wrap effect for that slice of readers.
-       Photos for Rimsha and Tahaseen are still placeholders. -->
   <tr>
     <td class="pad" style="padding:34px 44px 0 44px;">
       <div style="font-family:Georgia,'Times New Roman',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:#941121; font-weight:bold; padding-bottom:6px;">
@@ -259,7 +202,6 @@
         <tr><td width="38" height="2" bgcolor="#E3A43A" style="background-color:#E3A43A; font-size:0; line-height:0;">&nbsp;</td></tr>
       </table>
 
-      <!-- Rimsha Ahmed, Co-President -->
       <div style="margin-bottom:26px;">
         <img src="images/spotlight-rimsha.jpg"
              width="110" height="110" alt="Rimsha Ahmed"
@@ -281,13 +223,12 @@
         <td height="1" bgcolor="#F0EAE0" style="background-color:#F0EAE0; font-size:0; line-height:0;">&nbsp;</td>
       </tr></table>
 
-      <!-- Tahaseen Shaikh, Co-President -->
       <div style="margin:26px 0 26px 0;">
         <img src="images/spotlight-tahaseen.jpg"
-             width="110" height="110" alt="Tahaseen Shaikh"
+             width="110" height="110" alt="Tahaseen Shaik"
              style="float:left; display:block; width:110px; height:110px; margin:0 16px 8px 0; border:1px solid #E6DED2;" />
         <div style="font-family:Georgia,'Times New Roman',serif; font-size:19px; line-height:24px; color:#22201F; padding-bottom:2px;">
-          Tahaseen Shaikh
+          Tahaseen Shaik
         </div>
         <div style="font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size:13px; color:#6B6560; padding-bottom:10px;">
           Core Board, c/o 2024
@@ -303,7 +244,6 @@
         <td height="1" bgcolor="#F0EAE0" style="background-color:#F0EAE0; font-size:0; line-height:0;">&nbsp;</td>
       </tr></table>
 
-      <!-- Sumayya Syeda, Secretary -->
       <div style="margin-top:26px;">
         <img src="images/spotlight-sumayya.jpg"
              width="140" height="163" alt="Sumayya Syeda"
@@ -335,10 +275,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= STUDENT SPOTLIGHT =================
-       Placeholder — no student picked yet. Fill in before sending, or drop
-       the section per the "never ship an empty header" rule if nobody's
-       lined up by send time. -->
   <tr>
     <td class="pad" style="padding:34px 44px 0 44px;">
       <div style="font-family:Georgia,'Times New Roman',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:#941121; font-weight:bold; padding-bottom:6px;">
@@ -381,8 +317,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= FROM CAMPUS =================
-       Waiting on the actual ~100-word note from Zakariya (MSA contact). -->
   <tr>
     <td class="pad" style="padding:28px 44px 0 44px;">
       <div style="font-family:Georgia,'Times New Roman',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:#941121; font-weight:bold; padding-bottom:6px;">
@@ -403,7 +337,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= OPPORTUNITIES ================= -->
   <tr>
     <td class="pad" style="padding:28px 44px 0 44px;">
       <div style="font-family:Georgia,'Times New Roman',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:#941121; font-weight:bold; padding-bottom:6px;">
@@ -439,11 +372,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= GIVING & SERVICE =================
-       Teaser, not a hard ask — CMU Giving Day itself is the ask, and that
-       lands in a future issue with the real donation link. Date is TBD
-       per her copy — confirm and fill in before sending, ideally at
-       cmu.edu/engage/give/giving-cmu-day once it's posted. -->
   <tr>
     <td class="pad" style="padding:28px 44px 0 44px;">
       <div style="font-family:Georgia,'Times New Roman',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:#941121; font-weight:bold; padding-bottom:6px;">
@@ -465,7 +393,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= GET INVOLVED · the CTA ================= -->
   <tr>
     <td class="pad" style="padding:34px 44px 0 44px;">
       <div style="font-family:Georgia,'Times New Roman',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:#941121; font-weight:bold; padding-bottom:6px;">
@@ -512,7 +439,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= QUOTE ================= -->
   <tr>
     <td class="pad" style="padding:28px 44px 0 44px;">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FAF6F0" style="background-color:#FAF6F0;">
@@ -543,7 +469,6 @@
     </tr></table>
   </td></tr>
 
-  <!-- ================= FOOTER ================= -->
   <tr>
     <td class="pad" style="padding:30px 44px 40px 44px;">
       <div style="font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size:14px; line-height:24px; color:#941121; padding:22px 0 6px 0; text-align:center;">
@@ -555,13 +480,10 @@
 
       <div style="font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size:12px; line-height:20px; color:#6B6560; text-align:center; padding-top:14px;">
         You&rsquo;re receiving this because you&rsquo;re part of the Muslim Alumni Network @ CMU.<br />
-        <!-- CAN-SPAM requires a physical mailing address here — a board
-             member's address or a PO box both work. Add before sending. -->
+
         <a href="{$unsubscribe}" target="_blank" rel="noopener noreferrer" style="color:#6B6560; text-decoration:underline;">Unsubscribe</a>
       </div>
 
-      <!-- Vector calligraphy image, replacing the rendered Arabic text —
-           same reasoning as the bismillah swap: no font-dependency risk. -->
       <img src="images/jazakallah.png"
            width="180" height="71" alt="Jazakallah Khairan — may Allah reward you with goodness"
            style="display:block; width:180px; height:auto; margin:20px auto 0 auto;" />
